@@ -6,4 +6,6 @@ This project is a SQL analysis of a large company's employee data in pgAdmin 4. 
 ### Purpose
 The purpose of this project is to design entity relationship diagram (ERD), assigning primary and foreign keys to 6 different employee data csv files imported into pgAdmin 4 in order to design new datasets. The new datasets designed are intended to assist management in determining upcoing company hiring procedures with respect to current expected employee retirement. In some cases, datasets are designed and filtered with respect to company department to satisfy respective department managers. Finally, three datasets are designed to show 1) retiring employees by company position, 2) total retiring employees for each company position, and 3) employees, with thier positions listed, eligible for training new hires.
 ## Results
+* A SQL query is written with an inner join from the employees.csv table on the title.csv table.
+* In order to resolve duplicate employee entries in the resulting dataset, 
 ## Summary

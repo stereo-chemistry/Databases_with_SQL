@@ -10,7 +10,7 @@ The purpose of this project is to design entity relationship diagram (ERD), assi
 * A SQL query is written with an inner join from the employees.csv table on the title.csv table. The resulting table gives retiring employee by employee position.
 * In order to resolve duplicate employee entries in retirement_titles.csv, a DISTINCT ON () method of selecting employee ID column data was used, sorting by descending to_date in order to capture each employee in their current position.
 * Finally, a SELECT COUNT () method is used from the unique_titles.csv employee IDs, GROUPED BY employee position in order to determine the sums of retiring employees in each position.
- * This dataset unique_titles.csv (cite) is useful to assist in determining upcoming hiring procedures in terms of job positions to be filled.
+* This dataset unique_titles.csv (cite) is useful to assist in determining upcoming hiring procedures in terms of job positions to be filled.
 ### Deliverable 2
 * A SQL query is writtin with two inner joins from the employees.csv on dept_emp.csv and from employees.csv on titles.csv.
 * The data is filtered by and exported to show, without duplicate, current employees.
